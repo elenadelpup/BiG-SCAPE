@@ -1775,7 +1775,7 @@ def clusterJsonBatch(bgcs, pathBase, className, matrix, pos_alignments, cutoffs=
                         domainGenes2allGenes[bgc][has_domains] = orf
                         has_domains += 1
                         
-            assert len(members) > 0, f"Error: bs_families[{family}] have no members, something went wrong?"
+            assert len(members) > 0, "Error: bs_families[{family}] have no members, something went wrong?"
             
             ref_genes_ = set()
             aln = []
@@ -2262,7 +2262,17 @@ if __name__=="__main__":
 
     # cached stuff
     cache_folder = os.path.join(output_folder, "cache")
-    bgc_fasta_folder = os.path.join(cache_folder, "fasta")
+    bgc_fasta_folder = os.path.join(cache_folder, 
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    asta")
     domtable_folder = os.path.join(cache_folder, "domtable")
     pfs_folder = os.path.join(cache_folder, "pfs")
     pfd_folder = os.path.join(cache_folder, "pfd")
